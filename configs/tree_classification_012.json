@@ -1,0 +1,38 @@
+{
+    "dataset_config":{
+        "data_type": "classification_012",
+        "batch_size": 200,
+        "n_train_samples": 6000,
+        "n_test_samples": 3000,
+        "n_classes": 3
+    },
+    "model_config":{
+        "ansatz_type": "RY_CNOT",
+        "n_qubits":4,
+        "n_layers":3
+    },
+    "train_config":{
+        "optimization_config":{
+            "optimizer": "adam",
+            "loss_fn": "hinge",
+            "learning_rate": 0.005,
+            "n_epochs": 100,
+            "early_stopping": true,
+            "early_stopping_patience": 10,
+            "early_stopping_delta": 0.5
+        },
+        "logging_config":{
+            "use_wandb": true,
+            "save_best_model": true,
+            "wandb_config":{
+            "project_name": "tree_classification_012_01",
+            "experiment_name":"base_classifier_i",
+            "tags":["seed_i"]
+            }
+        }
+    },
+
+    "label_binary_tree_path": "/home/qcql/code/QAdaboost_Huawei/results/tree_results/classification_012_tree_label.pkl",
+    "class_idx_list_0": [0,1,2],
+    "class_idx_list_1": [0,1]
+}
