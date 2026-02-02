@@ -107,7 +107,7 @@ tqdm>=4.64.0   # Progress bars
 This project is built on top of **MindSpore Quantum**, an open-source quantum computing framework developed by Huawei. For more information, documentation, and source code, visit the official repository:
 
 - **Gitee Repository**: [https://gitee.com/mindspore/mindquantum](https://gitee.com/mindspore/mindquantum)
-- **Official Website**: [https://www.mindspore.cn/mindquantum](https://www.mindspore.cn/mindquantum)
+- **Official Website**: [https://www.mindspore.cn/mindquantum/docs/en/master/index.html](https://www.mindspore.cn/mindquantum/docs/en/master/index.html)
 
 MindSpore Quantum provides:
 - Quantum circuit simulation and compilation
@@ -118,8 +118,8 @@ MindSpore Quantum provides:
 ### Installation Steps
 1. Clone the project:
 ```bash
-git clone https://github.com/SheffieldWang/Quantum-Trace-distance-binary-Tree-AdaBoost-classifier.git
-cd Quantum-Trace-distance-binary-Tree-AdaBoost-classifier
+git clone https://github.com/SheffieldWang/Quantum_TTA.git
+cd Quantum_TTA
 ```
 
 2. Install dependencies:
@@ -141,3 +141,6 @@ Run the example training script:
 jupyter notebook notebooks/example/train_classification_012.ipynb
 ```
 
+## License
+
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for the full license text.
