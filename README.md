@@ -103,6 +103,18 @@ wandb>=0.15.0  # Experiment tracking
 tqdm>=4.64.0   # Progress bars
 ```
 
+### MindSpore Quantum Repository
+This project is built on top of **MindSpore Quantum**, an open-source quantum computing framework developed by Huawei. For more information, documentation, and source code, visit the official repository:
+
+- **Gitee Repository**: [https://gitee.com/mindspore/mindquantum](https://gitee.com/mindspore/mindquantum)
+- **Official Website**: [https://www.mindspore.cn/mindquantum](https://www.mindspore.cn/mindquantum)
+
+MindSpore Quantum provides:
+- Quantum circuit simulation and compilation
+- Hybrid quantum-classical neural networks
+- Various quantum algorithms and applications
+- Integration with MindSpore deep learning framework
+
 ### Installation Steps
 1. Clone the project:
 ```bash
