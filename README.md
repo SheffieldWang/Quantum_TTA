@@ -106,8 +106,8 @@ tqdm>=4.64.0   # Progress bars
 ### Installation Steps
 1. Clone the project:
 ```bash
-git clone <repository-url>
-cd QAdaboost_Huawei
+git clone https://github.com/SheffieldWang/Quantum-Trace-distance-binary-Tree-AdaBoost-classifier.git
+cd Quantum-Trace-distance-binary-Tree-AdaBoost-classifier
 ```
 
 2. Install dependencies:
